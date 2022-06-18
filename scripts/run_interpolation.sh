@@ -19,6 +19,6 @@ if [ -z "$2" ]; then
 else
   gpu="$2"
 fi
-python3 "$DIR/../src/interpolation.py" --checkpoint_dir "$1/model" \
+.venv/bin/python3 "$DIR/../src/interpolation.py" --checkpoint_dir "$1/model" \
   --result_dir "$1/results/interpolation" --params "$1/params.yaml" \
   --config "$1/config.yaml" --lower 0.0 --upper 1.0 --runs 10 --gpu "$gpu"

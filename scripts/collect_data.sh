@@ -4,4 +4,4 @@
 # them to a five-track pianoroll dataset.
 # Usage: ./generate_data.sh [INPUT_DIR] [OUTPUT_FILENAME]
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
-python "$DIR/../src/collect_data.py" -i "$1" -o "$2"
+.venv/bin/python3 "$DIR/../src/collect_data.py" -i "$1" -o "$2"
