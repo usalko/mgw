@@ -7,5 +7,5 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
 if [ ! -d "$DIR/../data" ]; then
   mkdir "$DIR/../data"
 fi
-gdown -O "$DIR/../data/train_x_lpd_5_phr.npz" \
+.venv/bin/gdown -O "$DIR/../data/train_x_lpd_5_phr.npz" \
   --id "14rrC5bSQkB9VYWrvt2IhsCjOKYrguk3S"
