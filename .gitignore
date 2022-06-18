@@ -138,3 +138,11 @@ dmypy.json
 logs/
 data/
 exp/
+
+# idea
+.idea
+
+# venv
+.venv
+.pip
+
