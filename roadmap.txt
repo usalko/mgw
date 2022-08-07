@@ -1,0 +1,5 @@
+1. Convert code from tensorflow to jax (reason: simplify nn development).
+   https://stackoverflow.com/questions/70356126/is-there-a-module-to-convert-a-tensorflow-nn-to-jax
+2. Create tool for easy markup and generate training datasets
+3. Create scipts for an automation
+4. Gui tools

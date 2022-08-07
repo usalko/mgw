@@ -63,7 +63,7 @@ def main():
         with np.load(filepath) as loaded:
             sa_array = create_shared_array(name, loaded["shape"], dtype)
             print("Saving data to shared memory...")
-            sa_array[[x for x in loaded["nonzero"]]] = 1
+            sa_array[tuple([x for x in loaded["nonzero"]])] = 1
 
     print(
         "Successfully saved: (name='{}', shape={}, dtype={})".format(
