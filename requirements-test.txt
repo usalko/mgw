@@ -1,0 +1,8 @@
+ipykernel==6.15.2
+ipywidgets==8.0.2
+torch==1.12.1
+matplotlib==3.5.3
+tqdm==4.64.1
+livelossplot==0.5.5
+gdown==4.5.1
+pypianoroll>=1.0.2
